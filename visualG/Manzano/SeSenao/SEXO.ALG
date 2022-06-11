@@ -1,0 +1,24 @@
+Algoritmo "Sexo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson Costa
+// Descrição   : Elaborar um programa que efetue a leitura do nome e do sexo de uma pessoa. Exiba uma mensagem de saudação com o nome que seja corresponde ao sexo informado.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 11/06/2022
+Var
+// Seção de Declarações das variáveis 
+ nome, sexo: Caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+          Escreva("Informe seu nome: ")
+   Leia(nome)
+   Escreva("Informe o seu sexo [M/F]: ")
+   Leia(sexo)
+   LimpaTela
+   Se (sexo = "M") ou (sexo = "m") entao
+      Escreva("Seja bem-vindo, Sr. ", nome, "!")
+   senao
+      Escreva("Seja bem-vinda, Sra. ", nome, "!")
+   FimSe
+Fimalgoritmo
